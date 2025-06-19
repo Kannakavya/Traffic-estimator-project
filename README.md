@@ -20,11 +20,11 @@
 
 Traffic-volume-estimator/
 ├── app.py # Flask web application
-├── model.pkl # Trained ML model (Pickle format)
+├── model.pkl 
 ├── static/
 │ └── images/
-│ ├── Car.jpg # Background image for output page
-│ └── Traffic.jpg # Background image for input page
+│ ├── Car.jpg 
+│ └── Traffic.jpg
 ├── templates/
 │ ├── index.html # User input form (traffic details)
 │ └── output.html # Prediction result display
@@ -32,7 +32,7 @@ Traffic-volume-estimator/
 │ ├── traffic volume estimation1.ipynb # Training & analysis notebook
 │ └── traffic volume estimation1-checkpoint.ipynb # Auto-saved checkpoint
 ├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+└── README.md
 ```
 
 ---
