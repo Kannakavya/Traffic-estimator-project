@@ -18,13 +18,36 @@
 
 ```bash
 Traffic-volume-estimator/
-├── app.py                  # Flask web app
-├── model.pkl               # Trained ML model
+Traffic-volume-estimator/
+├── app.py                        # Flask application
+├── model.pkl
+├── static/
+│   └── images/
+│       ├── Car.jpg
+│       └── Traffic.jpg
 ├── templates/
-│   └── index.html          # HTML UI
-│   └── output.html 
+│   ├── index.html                # Main form page
+│   └── output.html               # Output results page
 ├── notebook/
-│   └── notebook/traffic volume estimation1 \-checkpoint.ipynb # Jupyter Notebook for training
-│   └── notebook/notebook/traffic volume estimation1 .ipynb
-├── requirements.txt        # List of dependencies
-└── README.md               # Project documentation
+│   └── traffic volume estimation1.ipynb
+│   └── traffic volume estimation1-checkpoint.ipynb
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
+
+
+## Installation Method
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/Traffic-volume-estimator.git
+cd Traffic-volume-estimator
+
+# 2. Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate          # On Windows, use: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the Flask application
+python3 app.py
