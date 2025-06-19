@@ -16,7 +16,7 @@
 
 ## 📁 Project Structure
 
-The project directory is organized as follows:
+```bash
 
 Traffic-volume-estimator/
 ├── app.py # Flask web application
